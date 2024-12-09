@@ -18,10 +18,11 @@ IP Filter Tool  A Go script that filters out IPs from a provided list if they be
    ```
    git clone https://github.com/vijay922/ip-filter.git
    cd ip-filter
+   go build -o ip-filter
    ```
-2. Build the binary (optional):
+2. Install the ip-filter using the Go tool:
 ```
-go build -o ip-filter
+go install github.com/vijay922/ip-filter@latest
 ```
 
 # Usage
