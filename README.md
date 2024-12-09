@@ -16,8 +16,8 @@ IP Filter Tool  A Go script that filters out IPs from a provided list if they be
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ip-filter-tool.git
-   cd ip-filter-tool
+   git clone https://github.com/vijay922/ip-filter.git
+   cd ip-filter
    ```
 2. Build the binary (optional):
 ```
@@ -29,23 +29,23 @@ Run with a file as input
 Filter IPs from ips.txt and output the result to the terminal:
 
 ```
-go run filter_ips.go ips.txt
+go run ip-filter.go ips.txt
 ```
 
 Run with a file and save to an output file
 Filter IPs from ips.txt and save the filtered IPs to filtered_ips.txt:
 ```
-go run filter_ips.go ips.txt --output filtered_ips.txt
+go run ip-filter.go ips.txt --output filtered_ips.txt
 ```
 Pipe input via standard input
 Use a pipeline to filter IPs:
 ```
-cat ips.txt | go run filter_ips.go
+cat ips.txt | go run ip-filter.go
 ```
 Pipe input and save to a file
 Pipe IPs and save the filtered results to filtered_ips.txt:
 ```
-cat ips.txt | go run filter_ips.go --output filtered_ips.txt
+cat ips.txt | go run ip-filter.go --output filtered_ips.txt
 ```
 # Example Input
 ips.txt:
