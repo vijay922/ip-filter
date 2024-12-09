@@ -40,12 +40,12 @@ go run ip-filter.go ips.txt --output filtered_ips.txt
 Pipe input via standard input
 Use a pipeline to filter IPs:
 ```
-cat ips.txt | go run ip-filter.go
+cat ips.txt | ip-filter
 ```
 Pipe input and save to a file
 Pipe IPs and save the filtered results to filtered_ips.txt:
 ```
-cat ips.txt | go run ip-filter.go --output filtered_ips.txt
+cat ips.txt | ip-filter --output filtered_ips.txt
 ```
 # Example Input
 ips.txt:
