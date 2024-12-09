@@ -20,6 +20,7 @@ IP Filter Tool  A Go script that filters out IPs from a provided list if they be
    cd ip-filter
    go build -o ip-filter
    ```
+   # or
 2. Install the ip-filter using the Go tool:
 ```
 go install github.com/vijay922/ip-filter@latest
